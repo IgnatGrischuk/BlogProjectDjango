@@ -5,39 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dcfb0dbc-a58a-4ad7-ba0a-d9cc4bbcaa81" name="Changes" comment="Initialise blog project on Django framework.">
-      <change afterPath="$PROJECT_DIR$/blog_test/blog_app/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_test/blog_app/migrations/0002_alter_post_created_at.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_test/blog_app/migrations/0003_alter_post_created_at.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_test/blog_app/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_test/blog_app/templates/pagination.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_test/blog_app/templates/post_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_test/subscription/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_test/subscription/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_test/subscription/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_test/subscription/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_test/subscription/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_test/subscription/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_test/subscription/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_test/subscription/templates/subscribe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_test/subscription/templates/thank_you.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_test/subscription/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_test/subscription/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_test/subscription/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_test/users/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_test/users/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_test/users/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_test/users/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_test/users/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_test/users/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_test/users/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog_test/blog_app/migrations/0004_alter_post_created_at.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog_test/blog_app/migrations/0005_alter_post_created_at_alter_post_published_at.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog_test/blog_app/templates/create_post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog_test/blog_app/templates/post_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog_test/blog_app/templates/posts_by_author.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog_test/blog_app/templates/posts_by_tag.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog_test/users/templates/registration/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog_test/users/templates/registration/signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog_test/users/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog_test/blog_app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog_test/blog_app/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog_test/blog_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog_test/blog_app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog_test/blog_app/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog_test/blog_app/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog_test/blog_app/templates/post_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog_test/blog_app/templates/post_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog_test/blog_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog_test/blog_app/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog_test/blog_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog_test/blog_app/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog_test/blog_test/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog_test/blog_test/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog_test/blog_test/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog_test/blog_test/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog_test/subscription/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog_test/blog_app/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog_test/subscription/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog_test/subscription/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog_test/subscription/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog_test/subscription/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog_test/subscription/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog_test/users/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog_test/subscription/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog_test/subscription/templates/subscribe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog_test/subscription/templates/thank_you.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog_test/subscription/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog_test/subscription/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog_test/subscription/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog_test/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog_test/users/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +82,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-5a2391486177-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13763.11" />
+        <option value="bundled-python-sdk-d68999036c7f-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.14475.56" />
       </set>
     </attachedChunks>
   </component>
@@ -98,9 +95,20 @@
       <option name="presentableId" value="Default" />
       <updated>1708699402644</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initialise blog project on Django framework.">
+      <option name="closed" value="true" />
+      <created>1709058404620</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709058404620</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Initialise blog project on Django framework." />
+    <option name="LAST_COMMIT_MESSAGE" value="Initialise blog project on Django framework." />
   </component>
 </project>

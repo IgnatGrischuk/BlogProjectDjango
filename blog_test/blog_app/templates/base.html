@@ -13,7 +13,24 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-
+                    {% if user.is_authenticated %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'create_post' %}">Create Post</a>
+                    </li>
+                        <li class="nav-item">
+                            <form action="{% url 'logout' %}" method="post" class="form-inline">
+                                {% csrf_token %}
+                                <button type="submit" class="nav-link btn btn-link" style="display: inline; border: none; background: none; box-shadow: none;">LogOut</button>
+                            </form>
+                        </li>
+                    {% else %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'signup' %}"> SignUp </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'login' %}"> SignUp </a>
+                    </li>
+                    {% endif %}
                 </ul>
             </div>
         </div>

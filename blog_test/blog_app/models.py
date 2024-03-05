@@ -10,7 +10,7 @@ class Post(models.Model):
     author = models.ForeignKey(settings.AUTH_USER_MODEL,
                                on_delete=models.CASCADE)
     created_at = models.DateTimeField(default=timezone.now())
-    published_at = models.DateTimeField(blank=True, null=False)
+    published_at = models.DateTimeField(blank=True, null=True)
     tags = TaggableManager()
 
 

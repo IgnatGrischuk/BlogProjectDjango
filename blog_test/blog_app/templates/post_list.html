@@ -2,13 +2,13 @@
 
 {% block content %}
     {% for post in posts %}
-        <h1>{{ post.title }}</h1>
+        <h1><a href = "{% url 'post' post_id=post.id %}"> {{ post.title }}</a></h1>
         <div class="date">
             {{ post.created_at }} by {{ post.author.username }}
         </div>
 
         {% for tag in post.tags.all %}
-            {{ tag.name }}
+            <a href="{% url 'post_by_tag' tag_slug=tag.slug %}">{{ tag.name }}</a>
         {% endfor %}
     {% endfor %}
 
