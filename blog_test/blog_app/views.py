@@ -4,6 +4,9 @@ from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage
 from blog_app.forms import PostForm
 from taggit.models import Tag
 from django.contrib.auth.models import User
+from django.conf import settings
+from django.core.exceptions import ObjectDoesNotExist
+from django.http import HttpResponse
 
 
 def post_list(request):
@@ -50,7 +53,21 @@ def post_by_tag(request, tag_slug):
                   {'posts': posts, 'tag': tag})
 
 
-def posts_by_author(request, author):
-    posts = Post.objects.filter(author=author)
-    return render(request,'posts_by_author.html',
-                  {'posts': posts, 'author': author})
+def posts_by_author(request, author_id):
+    posts = Post.objects.filter(author=author_id)
+    return render(request, 'posts_by_author.html',
+                  {'posts': posts, 'author': author_id})
+
+
+def post_edit(request, post_id):
+    post = get_object_or_404(Post, id=post_id)
+
+    if request.method == 'POST':
+        form = PostForm(request.POST, instance=post)
+        if form.is_valid():
+            form.save()
+            return redirect('post_detail', post_id=post.id)
+    else:
+        form = PostForm(instance=post)
+
+    return render(request, 'create_post.html', {'form': form})
